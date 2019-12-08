@@ -1,2 +1,19 @@
-# my-vimrc-without-plugins
+# My Vimrc Without Plugins
+
 My vimrc without installing any plugins
+
+# How to Use
+
+Clone this repository, assuming it is cloned to a folder `/path/to/vimrc/`
+Start vim with parameter `-u` to specify the vimrc folder:
+
+```shell
+vim -u /path/to/vimrc
+```
+
+If you don't want append the `-u` parameter everytime you start vim, there are two options
+
+1. `alias vi2="vim -u /path/to/vimrc"`.
+2. Or you could `mv` the `path/to/vimrc/` folder to `$HOME/.vim`.
+
+You could check `$HOME` out by run the command `:echo $HOME` in vim.
