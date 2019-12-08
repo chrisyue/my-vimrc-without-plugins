@@ -4,7 +4,7 @@ My vimrc without installing any plugins
 
 # How to Use
 
-Clone this repository, assuming it is cloned to a folder `/path/to/vimrc/`
+Clone this repository, assuming it is cloned to a folder `/path/to/vimrc/`.
 Start vim with parameter `-u` to specify the vimrc folder:
 
 ```shell
