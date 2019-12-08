@@ -11,9 +11,9 @@ Start vim with parameter `-u` to specify the vimrc folder:
 vim -u /path/to/vimrc
 ```
 
-If you don't want append the `-u` parameter everytime you start vim, there are two options
+If you don't want to append the `-u` parameter everytime you starting vim, there are two options
 
 1. `alias vi2="vim -u /path/to/vimrc"`.
 2. Or you could `mv` the `path/to/vimrc/` folder to `$HOME/.vim`.
 
-You could check `$HOME` out by run the command `:echo $HOME` in vim.
+You could check `$HOME` out by running the command `:echo $HOME` in vim.
