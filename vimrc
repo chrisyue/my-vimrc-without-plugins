@@ -2,6 +2,8 @@ if has('gui_running')
     set guioptions-=rL
 endif
 
+syntax on
+
 set noswapfile
 set encoding=UTF-8
 
