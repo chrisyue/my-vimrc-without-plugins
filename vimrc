@@ -2,6 +2,8 @@ if has('gui_running')
     set guioptions-=rL
 endif
 
+syntax on
+
 set noswapfile
 set encoding=UTF-8
 
@@ -24,9 +26,7 @@ set foldmarker={,} foldmethod=marker foldlevel=1
 set wildmode=list:longest wildmenu
 
 set hidden
-set autoread autowriteall
-
-set runtimepath+=/usr/local/opt/fzf
+set autoread
 
 set iskeyword=a-z,A-Z,48-57,_
 
@@ -36,5 +36,3 @@ if executable('ag')
 endif
 
 filetype plugin on
-
-syntax on
