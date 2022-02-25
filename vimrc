@@ -37,12 +37,4 @@ endif
 
 filetype plugin on
 
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap ' ''<Left>
-inoremap " ""<Left>
-inoremap ` ``<Left>
-inoremap { {<CR>}<Esc>O
-nnoremap <C-K> I// <Esc>
-vnoremap <C-K> <Esc>`>a */<Esc>`<i/* <Esc>
-nnoremap <C-S> :grep <cword><CR>
+syntax on
