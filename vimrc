@@ -7,7 +7,7 @@ syntax on
 set noswapfile
 set encoding=UTF-8
 
-set list listchars=tab:<->,trail:█
+set list listchars=tab:>=,trail:█
 
 set hlsearch incsearch
 let hicolor=" ctermbg=none cterm=bold ctermfg=10"
